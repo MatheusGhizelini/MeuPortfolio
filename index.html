@@ -25,7 +25,8 @@
             <div class="ancors">
                 <a href="#sobre-mim">SOBRE MIM</a> -
                 <a href="#projetos">PROJETOS</a> -
-                <a href="#competencias">COMPETÊNCIAS</a>
+                <a href="#competencias">COMPETÊNCIAS</a> -
+                <a href="#contato">CONTATO</a>
             </div>
 
         </nav>
@@ -119,6 +120,7 @@
 
         <h2>COMPETÊNCIAS</h2>
         <div id="competencias">
+
             <img src="imagens/competencias/html5.svg" alt="Logo HTML5"> <!-- Logo HTML5  -->
             <img src="imagens/competencias/css3.svg" alt="Logo CSS3"> <!-- Logo CSS3 -->
             <img src="imagens/competencias/javascript.svg" alt="Logo JAVASCRIPT"> <!-- Logo JAVASCRIPT -->
@@ -126,6 +128,25 @@
             <img src="imagens/competencias/react.svg" alt="Logo REACT"> <!-- Logo REACT -->
             <img src="imagens/competencias/bootstrap.svg" alt="Logo BOOTSTRAP"> <!-- Logo BOOTSTRAP -->
 
+        </div>
+
+
+        <div id="contato">
+            <h2>CONTATO</h2>
+            <p>Entre em contato comigo através do formulário abaixo.</p>
+        </div>
+        <div class="form">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="text" name="email" placeholder="Seu E-mail" required>
+                <textarea name="mensagem" required></textarea>
+                <input type="text" name="honeypot" style="display:none">
+                <input type="hidden" name="accessKey" value="f0a8cd6c-cf4a-4afa-b6a2-3abd0c83d410">
+                <input type="hidden" name="subject" value="Contact us from - example.com" />
+                <input type="hidden" name="replyTo" value="@">
+                <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+                <input type="submit" value="Enviar" />
+            </form>
         </div>
 
     </main>
