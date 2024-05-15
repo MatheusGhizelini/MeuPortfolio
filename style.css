@@ -25,17 +25,14 @@ nav {
     font-weight: 550;
 }
 
-
 nav a {
     text-decoration: none;
     color: #fff;
 }
 
-
 #whatsapp {
     margin-left: 1rem;
 }
-
 
 .ancors {
     margin-right: 2rem;
@@ -58,14 +55,12 @@ nav a {
     align-items: center;
 }
 
-
 .ola {
     color: #fff;
     font-size: 2rem;
     font-weight: 600;
     text-shadow: #000 2px 2px;
 }
-
 
 #foto-de-perfil {
     border-radius: 90px;
@@ -91,7 +86,6 @@ h2 {
     align-items: center;
 }
 
-
 #sobre-mim p {
     color: #fff;
     display: flex;
@@ -101,7 +95,6 @@ h2 {
     margin-right: 18rem;
     margin-top: 0rem;
 }
-
 
 .cv-download {
     font-size: 1.25rem;
@@ -113,16 +106,19 @@ h2 {
     border-radius: 3rem;
     margin-top: 2rem;
     box-shadow: 0.5rem 0.5rem 0.25rem #ffffff;
-    cursor: pointer; /* Cursor de ponteiro */
-    transition: background-color 0.3s, transform 0.3s; /* Transição suave */
+    cursor: pointer;
+    /* Cursor de ponteiro */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Transição suave */
 }
-
 
 .cv-download:hover {
-    background-color: #001e4e; /* Cor de fundo azul mais escuro ao passar o mouse */
-    transform: scale(1.05); /* Aumenta o tamanho do botão levemente */
+    background-color: #001e4e;
+    /* Cor de fundo azul mais escuro ao passar o mouse */
+    transform: scale(1.05);
+    /* Aumenta o tamanho do botão levemente */
+    transition: 0.5s;
 }
-
 
 .cv-download a {
     padding: 1rem;
@@ -133,6 +129,16 @@ h2 {
 }
 
 
+.card h3 {
+    color: #ffffff;
+}
+
+.card p {
+    color: #ffffff;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+}
+
 .card-int {
     display: flex;
     flex-direction: row;
@@ -141,7 +147,6 @@ h2 {
     gap: 2rem;
 }
 
-
 .card {
     display: flex;
     justify-content: center;
@@ -149,14 +154,22 @@ h2 {
     flex-direction: column;
 }
 
+.botao-projeto a:hover {
+    background-color: #001e4e;
+    /* Cor de fundo azul mais escuro ao passar o mouse */
+    transform: scale(1.05);
+    /* Aumenta o tamanho do botão levemente */
+    transition: 0.5s;
+}
 
 .botao-projeto a {
     text-decoration: none;
     background-color: #9fafca;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     padding: 0.5rem;
+    color: #ffffff;
+    text-shadow: #0e387a 1px 1px;
 }
-
 
 .ver-mais-projetos {
     display: flex;
@@ -164,6 +177,13 @@ h2 {
     align-items: center;
 }
 
+.ver-mais-projetos a:hover {
+    background-color: #001e4e;
+    /* Cor de fundo azul mais escuro ao passar o mouse */
+    transform: scale(1.05);
+    /* Aumenta o tamanho do botão levemente */
+    transition: 0.5s;
+}
 
 .ver-mais-projetos a {
     background-color: #9fafca;
@@ -171,7 +191,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     padding: 0.5rem;
     text-decoration: none;
     color: #ffffff;
@@ -189,7 +209,6 @@ h2 {
     gap: 2rem;
 }
 
-
 #competencias img {
     width: 7.5rem;
     height: 7.rem;
@@ -205,7 +224,6 @@ h2 {
     font-size: 1rem;
 }
 
-
 form {
     display: flex;
     flex-direction: column;
@@ -214,44 +232,51 @@ form {
     padding: 1.25rem;
     width: 100%;
     max-width: 25rem;
-  }
+    margin-bottom: 5rem;
+}
 
-
-  .form {
+.form {
     display: flex;
     justify-content: center;
     text-align: center;
-  }
+}
 
-
-  input[type="text"], textarea {
+input[type="text"],
+textarea {
     width: 100%;
     padding: 0.75rem;
     margin-bottom: 1rem;
     font-size: 1rem;
-  }
+    background-color: transparent;
+    border-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #fff
+}
 
-  textarea {
+textarea {
     height: 10rem;
-  }
+}
 
-  input[type="submit"] {
+input[type="submit"] {
     background-color: #9fafca;
     color: white;
     padding: 0.75rem;
     font-size: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     cursor: pointer;
     transition: background-color 0.3s;
     border: none;
     text-shadow: #0e387a 2px 2px;
     font-size: larger;
-  }
+    width: 100%;
+    max-width: 25rem;
+}
 
-  input[type="submit"]:hover { /*Altera a cor do botão "enviar do formulário" ao passar o cursor por cima */
+input[type="submit"]:hover {
+    /*Altera a cor do botão "enviar do formulário" ao passar o cursor por cima */
     background-color: #001e4e;
-  }
-
+    transition: 0.5s;
+}
 
 
 .footer {
