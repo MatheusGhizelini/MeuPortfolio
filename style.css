@@ -250,6 +250,7 @@ textarea {
     font-family: "Roboto", sans-serif;
     border: 1px solid #fff;
     color: #ffffff;
+    border-radius: 0.75rem;
 }
 
 textarea {
